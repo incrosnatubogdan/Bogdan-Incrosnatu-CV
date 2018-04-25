@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Title -->
+    <title>Bogdan - Resume</title>
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i%7CPoppins:300,400,500,600" rel="stylesheet">
+    <script async defer src="http://maps.google.com/maps/api/js?key=AIzaSyBkK11-_gea9YgyL0Hko9CMiKwQCGNVjGM&callback"></script>
+    <link rel="shortcut icon" href="../logo.ico" />
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="res/css/styles.css" />
+
+    <!-- CSS Theme -->
+    <link id="theme" rel="stylesheet" href="res/css/main.css" />
+
+    <style>
+        a:hover {
+            text-decoration: none;
+        }
+
+        [data-tooltip] {
+            position: relative;
+            z-index: 2;
+            cursor: pointer;
+        }
+
+        [data-tooltip]:before {
+            position: absolute;
+            bottom: 150%;
+            left: 50%;
+            margin-bottom: 5px;
+            margin-left: -80px;
+            padding: 7px;
+            width: 160px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            background-color: #000;
+            background-color: hsla(0, 0%, 20%, 0.9);
+            color: #fff;
+            content: attr(data-tooltip);
+            text-align: center;
+            font-size: 14px;
+            line-height: 1.2;
+        }
+
+        /* Triangle hack to make tooltip look like a speech bubble */
+
+        [data-tooltip]:after {
+            position: absolute;
+            bottom: 150%;
+            left: 50%;
+            margin-left: -5px;
+            width: 0;
+            border-top: 5px solid #000;
+            border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+            border-right: 5px solid transparent;
+            border-left: 5px solid transparent;
+            content: " ";
+            font-size: 0;
+            line-height: 0;
+        }
+
+        /* Show tooltip content on hover */
+
+        [data-tooltip]:hover:before,
+        [data-tooltip]:hover:after {
+            visibility: visible;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+            opacity: 1;
+        }
+
+        /* Hide the tooltip content by default */
+
+        [data-tooltip]:before,
+        [data-tooltip]:after {
+            visibility: hidden;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+            opacity: 0;
+            pointer-events: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div id="page-loader">
+        <svg class="loader" width="32px" height="32px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"><circle class="circle" fill="none" stroke-width="5" stroke-linecap="round" cx="32" cy="32" r="32"></circle></svg>
+    </div>
+    <!-- Loader / End -->
+
+    <!-- Header -->
+    <header id="header" class="header-vertical dark">
+
+        <!-- Photo -->
+        <a class="photo">
+        <img src="res/img/photos/bogdan.jpg" alt="">
+    </a>
+
+        <!-- Navigation -->
+        <nav id="main-menu">
+            <ul class="nav nav-vertical">
+                <li><a href="#start"><i class="pe-7s-home"></i><span>Start</span></a></li>
+                <li><a href="#resume"><i class="pe-7s-ribbon"></i><span>Resume</span></a></li>
+                <li><a href="#portfolio"><i class="pe-7s-monitor"></i><span>Portfolio</span></a></li>
+                <li><a href="#contact"><i class="pe-7s-mail"></i><span>Contact</span></a></li>
+            </ul>
+            <span class="selector"></span>
+        </nav>
+
+        <!-- Bottom -->
+        <div class="bottom text-center">
+            <ul class="nav-icons nav-sm">
+                <li><a href="https://www.facebook.com/BogdanIncrosnatu"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/bogdan-incrosnatu-4b8b08bb/"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/incrosnatubogdan"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+
+    </header>
+    <!-- Header / End -->
+
+    <!-- Content -->
+    <div id="content">
+
+        <!-- Section - Start -->
+        <section id="start" class="section fullheight dark bg-dark">
+
+            <!-- BG Image -->
+            <div class="bg-image zooming"><img src="res/img/photos/developer_bg01.jpg" alt=""></div>
+
+            <div class="container container-custom v-center">
+                <h1 class="text-lg mb-0"><em>Hi! I’m</em> Bogdan Incrosnatu</h1>
+                <p class="lead text-muted">Front-End Developer</p>
+            </div>
+
+        </section>
+
+        <!-- Section - Resume -->
+        <section id="resume" class="section">
+
+            <div class="container container-custom">
+                <p class="lead text-muted mb-80">I'm a skilled web developer, and I also second as an <b>entrepreneur</b> for more than 2 years now. These 2 years have changed my perception about the entire web development process, and by having to both build it while in the meantime having oversight the entire project requires greater <b>attention to detail</b> and <b>planning skills</b>. Hope you're going to like my work, and I'm always up for a good talk over a good coffee. </p>
+
+                <div class="row masonry long-spaces">
+                    <div class="masonry-sizer col-sm-6 col-xs-12"></div>
+                    <!-- Specialities -->
+                    <div class="masonry-item col-sm-6 col-xs-12">
+                        <div class="resume-card">
+                            <h3 class="title">My Specialities</h3>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <!-- Feature -->
+                                    <div class="feature feature-2">
+                                        <span class="icon icon-primary"><i class="pe-7s-browser"></i></span>
+                                        <div class="feature-content">
+                                            <h4>Webmaster</h4>
+                                        </div>
+                                    </div>
+                                    <!-- Feature -->
+                                    <div class="feature feature-2">
+                                        <span class="icon icon-primary"><i class="pe-7s-phone"></i></span>
+                                        <div class="feature-content">
+                                            <h4>Mobile Apps</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <!-- Feature -->
+                                    <div class="feature feature-2">
+                                        <span class="icon icon-primary"><i class="pe-7s-monitor"></i></span>
+                                        <div class="feature-content">
+                                            <h4>Web development</h4>
+                                        </div>
+                                    </div>
+                                    <!-- Feature -->
+                                    <div class="feature feature-2">
+                                        <span class="icon icon-primary"><i class="pe-7s-chat"></i></span>
+                                        <div class="feature-content">
+                                            <h4>Social Media</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills -->
+                    <div class="masonry-item col-sm-6 col-xs-12">
+                        <div class="resume-card">
+                            <h3 class="title">Skills</h3>
+                            <!-- Skill -->
+                            <div class="skill">
+                                <h5>HTML / CSS</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
+                                </div>
+                            </div>
+                            <!-- Skill -->
+                            <div class="skill">
+                                <h5>JavaScript</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75"></div>
+                                </div>
+                            </div>
+                            <!-- Skill -->
+                            <div class="skill">
+                                <h5>Adobe Photoshop</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85"></div>
+                                </div>
+                            </div>
+                            <!-- Skill -->
+                            <div class="skill">
+                                <h5>Angular JS</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="55"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Languages -->
+                    <div class="masonry-item col-sm-6 col-xs-12">
+                        <div class="resume-card">
+                            <h3 class="title">Languages</h3>
+                            <!-- Skill -->
+                            <div class="skill">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"></div>
+                                </div>
+                                <h5>Romanian</h5>
+                            </div>
+                            <!-- Skill -->
+                            <div class="skill">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
+                                </div>
+                                <h5>English</h5>
+                            </div>
+                            <!-- Skill -->
+                        </div>
+                    </div>
+                    <!-- Educatin & Jobs -->
+                    <div class="masonry-item col-sm-6 col-xs-12">
+                        <div class="resume-card">
+                            <h3 class="title">Education &amp; Jobs</h3>
+                            <div class="timeline">
+                                <!-- Event-->
+                                <div class="timeline-event animated">
+                                    <div class="content">
+                                        <img src="res/img/photos/cs.png" alt="" class="img-rounded">
+                                        <span class="date">October 2014 - Now</span>
+                                        <h4>Bachelor in Computer Science</h4>
+                                        <span class="caption">University of Automatics, Craiova, Romania</span>
+                                    </div>
+                                </div>
+                                <!-- Event-->
+                                <div class="timeline-event animated">
+                                    <div class="content">
+                                        <img src="res/img/photos/webba.png" alt="" class="img-rounded">
+                                        <span class="date">May 2016 - Now</span>
+                                        <h4>Front-End Developer & Founder
+                                            <p><a data-tooltip="During this ">More</a></p>
+                                        </h4>
+                                        <span class="caption">Webba, Craiova, Romania </span>
+                                    </div>
+                                </div>
+                                <!-- Event-->
+                                <div class="timeline-event animated">
+                                    <div class="content">
+                                        <img src="res/img/photos/aiesec.png" alt="" class="img-rounded">
+                                        <span class="date">October 2015 - May 2016</span>
+                                        <h4>Marketing Team Leader</h4>
+                                        <span class="caption">AIESEC, Craiova, Romania </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Hobbies -->
+                    <div class="masonry-item col-sm-6 col-xs-12">
+                        <div class="resume-card">
+                            <h3 class="title">Hobbies &amp; Interests</h3>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="feature feature-1 text-center">
+                                        <span class="icon icon-primary"><i class="pe-7s-phone"></i></span>
+                                        <h4>Technology</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="feature feature-1 text-center">
+                                        <span class="icon icon-primary"><i class="pe-7s-ball"></i></span>
+                                        <h4>Basketball</h4>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="feature feature-1 text-center">
+                                        <span class="icon icon-primary"><i class="pe-7s-plane"></i></span>
+                                        <h4>Travelling</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <!-- Feature -->
+                                    <div class="feature feature-1 text-center">
+                                        <span class="icon icon-primary"><i class="pe-7s-headphones"></i></span>
+                                        <h4>Music</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Section - Portfolio -->
+        <section id="portfolio" class="section cover bg-black">
+
+            <!-- Filter Bar -->
+            <nav class="filter-bar bg-primary dark">
+                <div class="tabs-wrapper">
+                    <ul class="filter nav nav-tabs" data-filter-list="#works-list">
+                        <li class="active"><a href="#" data-filter="*">All</a></li>
+                        <li><a href="#" data-filter=".webdevelopment">Web Development</a></li>
+                        <li><a href="#" data-filter=".comingsoon">Coming Soon</a></li>
+                    </ul>
+                    <span class="selector"></span>
+                </div>
+            </nav>
+
+            <!-- Works List -->
+            <div id="works-list" class="filter-list row masonry no-spaces">
+                <div class="masonry-sizer col-md-3 col-sm-6 col-xs-12"></div>
+                <!-- Image Box -->
+                <div class="socialmedia masonry-item col-md-3 col-sm-6 col-xs-12">
+                    <div class="image-box">
+                        <div class="image"><a href="https://www.rorodent.ro" target="_blank" data-toggle="ajax-modal"><img src="res/img/works/rorodent.jpg" alt="Rorodent"></a></div>
+                        <div class="hover">
+                            <a href="https://www.rorodent.ro" target="_blank">
+                                <h4 class="mb-0">Rorodent</h4>
+                                <span class="text-muted">Web Development</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image Box -->
+                <div class="webdevelopment masonry-item col-md-3 col-sm-6 col-xs-12">
+                    <div class="image-box">
+                        <div class="image"><a href="http://caravanacumedici.ro/" target="_blank" data-toggle="ajax-modal"><img src="res/img/works/ccm.jpg" alt="Caravana cu Medici"></a></div>
+                        <div class="hover">
+                            <a href="http://caravanacumedici.ro/" target="_blank">
+                                <h4 class="mb-0">Caravana cu Medici</h4>
+                                <span class="text-muted">Web Development</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image Box -->
+                <div class="webdevelopment masonry-item col-md-3 col-sm-6 col-xs-12">
+                    <div class="image-box">
+                        <div class="image"><a href="http://primaclinic.ro/" target="_blank" data-toggle="ajax-modal"><img src="res/img/works/prima.jpg" alt="PrimaClinic"></a></div>
+                        <div class="hover">
+                            <a href="http://primaclinic.ro/" target="_blank">
+                                <h4 class="mb-0">PrimaClinic</h4>
+                                <span class="text-muted">Web Development</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="webdevelopment masonry-item col-md-3 col-sm-6 col-xs-12">
+                    <div class="image-box">
+                        <div class="image"><a href="http://webba.ro/" target="_blank" data-toggle="ajax-modal"><img src="res/img/works/webba.jpg" alt="Webba"></a></div>
+                        <div class="hover">
+                            <a href="http://webba.ro/" target="_blank">
+                                <h4 class="mb-0">Webba</h4>
+                                <span class="text-muted">Web Development</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section - Contact -->
+        <section id="contact" class="section min-fullheight">
+            <!-- BG Image -->
+            <div id="google-map" data-latitude="44.312758" data-longitude="23.8168117" data-style="dream" class="bg-map"></div>
+            <div class="container container-custom">
+                <div class="contact-box bg-primary dark animated" data-animation="fadeInDown" data-animation-delay="500">
+                    <div class="contact-box-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2 class="mb-50"><em>Don’t hesitate to</em> contact me!</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="feature feature-1">
+                                    <div class="icon"><span class="ti-desktop"></span></div>
+                                    <a href="mailto:bogdan@webba.ro?Subject=CV%20contact" target="_top" class="h3 font-primary">bogdan@webba.ro</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="feature feature-1">
+                                    <div class="icon"><span class="ti-mobile"></span></div>
+                                    <a href="tel:+40733131284" class="h3 font-primary"><small>+40</small> 733 13 12 84</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr class="sep-line">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h5 class="mt-5">Check my social media!</h5>
+                            </div>
+                            <div class="col-sm-6 text-right">
+                                <ul class="nav-icons">
+                                    <li><a href="https://www.facebook.com/BogdanIncrosnatu"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/bogdan-incrosnatu-4b8b08bb/"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://github.com/incrosnatubogdan"><i class="fa fa-github"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="contact-toggle"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Content / End -->
+
+    <!-- Mobile Nav Toggle -->
+    <a href="#" id="vertical-nav-toggle" class="nav-toggle" data-toggle="mobile-nav"><span><span></span></span></a>
+
+    <!-- Contact Popup Controls -->
+
+    <!-- Contact Popup -->
+
+    <!-- Ajax Modal -->
+    <div id="ajax-modal"></div>
+    <!-- Ajax Close -->
+    <a href="#" class="ajax-close" data-dismiss="ajax-modal"><i class="ti-close"></i></a>
+    <!-- Ajax Loader -->
+    <svg id="ajax-loader" class="loader" width="32px" height="32px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"><circle class="circle" fill="none" stroke-width="5" stroke-linecap="round" cx="32" cy="32" r="32"></circle></svg>
+
+    <!-- Modal / Video -->
+    <div class="modal modal-video fade" id="modalVideo" role="dialog">
+        <button class="close" data-dismiss="modal"><i class="ti-close"></i></button>
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <iframe height="500"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="res/js/jquery-1.12.4.min.js"></script>
+    <script src="res/js/plugins.js"></script>
+    <script src="res/js/core.js"></script>
+
+</body>
+
+</html>
