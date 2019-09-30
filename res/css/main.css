@@ -1,55 +1,3 @@
-/* -----------------------------------------------------------------------------
-
-Sukces - Neat Personal Resume CV vCard Template
-
-File:			CSS Theme
-Version:        1.0
-Last change:    15/07/16 
-Author:			Suelo 
-
-Table of Contents:
-
-1. Document Setup
-2. Basic
-3. Header 
--- 3.1 Header Vertical
--- 3.2 Header Vertical RTL
--- 3.3 Header Horizontal
--- 3.4 Header Horizontal RTL
-4. Content 
--- 4.1 Blog
--- 4.2 Features
--- 4.3 Media
--- 4.4 Other 
--- 4.5 Sections
--- 4.6 Timeline
-5. Elements 
--- 5.1 Accordion
--- 5.2 Ajax Modal
--- 5.3 Buttons
--- 5.4 Backgrounds
--- 5.5 Breadcrumbs
--- 5.6 Contact Popup
--- 5.7 Carousel
--- 5.8 Forms 
--- 5.9 Icons
--- 5.10 Images 
--- 5.11 Labels / Badges
--- 5.12 Loader
--- 5.13 Modals
--- 5.14 Navigations
--- 5.15 Other
--- 5.16 Pagination
--- 5.17 Price Tables
--- 5.18 Progress Bars
--- 5.19 Typography
-6. Widgets 
-7. Animations 
-
--------------------------------------------------------------------------------- */
-/* ----------------------------------------------------------------------------- */
-/* --- 1. SETUP
-/* ----------------------------------------------------------------------------- */
 body { position: relative; color: #434343; font-size: 15px; font-family: "Lora", Georgia, serif; font-weight: 400; line-height: 1.5; overflow-x: hidden; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 a { color: inherit; -moz-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; -webkit-transition: all 0.4s ease-out; transition: all 0.4s ease-out; }
@@ -1203,7 +1151,7 @@ html[dir="rtl"] .comments > li ul { padding-left: 0; padding-right: 58px; }
 ----------------------------------------------------------*/
 /* Image */
 .image-box { position: relative; overflow: hidden; }
-.image-box .image { position: relative; background: #000000; overflow: hidden; }
+.image-box .image { position: relative; background: #fff; overflow: hidden; }
 .image-box .image img { position: relative; -moz-transition: all 1.5s ease-out; -o-transition: all 1.5s ease-out; -webkit-transition: all 1.5s ease-out; transition: all 1.5s ease-out; width: 100%; z-index: 1; }
 .image-box > .label { position: absolute; top: 20px; right: 20px; z-index: 4; }
 .image-box .image:after { position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC44NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='); background-size: 100%; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.85))); background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)); background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)); background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)); -moz-transition: all 0.5s ease-out; -o-transition: all 0.5s ease-out; -webkit-transition: all 0.5s ease-out; transition: all 0.5s ease-out; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; content: ' '; visibility: hidden; z-index: 2; }
