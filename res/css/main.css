@@ -1139,7 +1139,7 @@ html[dir="rtl"] .comments > li ul { padding-left: 0; padding-right: 58px; }
 .feature.feature-1 .icon { margin-bottom: 16px; }
 .feature.feature-2 .feature-content { padding-left: 50px; padding-top: 10px; }
 .feature.feature-2 .icon { float: left; }
-.feature-content h4 { white-space:nowrap; }
+.feature-content h4 {  }
 .feature.feature-2 .icon.icon-sm + .feature-content { padding-left: 45px; }
 .feature.feature-2 .icon.icon-lg + .feature-content { padding-left: 90px; }
 .feature.feature-2 .icon.icon-circle + .feature-content { padding-left: 95px; }
