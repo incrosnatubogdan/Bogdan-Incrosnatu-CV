@@ -1772,7 +1772,7 @@ textarea.form-control:focus, textarea.form-control:active { border: none; }
 .nav-pills > li + li { margin-left: 0; }
 
 /* Tabs */
-.tabs-wrapper { position: relative; overflow: auto; padding-left: 20px; padding-right: 20px; }
+.tabs-wrapper { position: relative; overflow: hidden; padding-left: 20px; padding-right: 20px; }
 .tabs-wrapper .selector { position: absolute; bottom: 0; height: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; background: #35b3a8; -moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
 @media only screen and (max-width: 360px) { .tabs-wrapper .selector { display: none; } }
 
